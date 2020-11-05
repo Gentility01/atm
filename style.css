@@ -1,0 +1,134 @@
+*
+{
+	padding: 0;
+	box-sizing: border-box;
+}
+body
+{
+	font-family: sans-serif;
+	font-size: larger;
+}
+
+.main
+{
+	background-color:#2f4f4f;
+	height: 60vh;
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+
+}
+
+.main .opp
+{
+	
+	margin-left: 30px;
+    margin-top: 10px;
+	width: 80%;
+	height: 10vh;
+	font-size: 1.5rem;
+}
+
+.main .in-main
+{
+	height: 45vh;
+	width: 100%;
+	margin-top: 20px;
+	display: flex;
+}
+
+.main .in-main .part-1
+{
+	height: 100%;
+	width: 20%;
+	
+	
+}
+
+.main .in-main .part-1 button
+{
+	width: 70%;
+	height: 8vh;
+	margin: 10px;
+	display: block;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+
+.main .in-main .part-2
+{
+	height:100%;
+	width: 55%;
+		
+}
+.main .in-main .part-2 .btn-2
+{
+	width: 70px;
+	height: 40px;
+	margin: 10px;
+	outline: none;
+	border-radius: 5px;
+	
+}
+.main .in-main .part-2 .btn-2:hover
+{
+	background-color: transparent;	
+	width: 70px;
+	height: 40px;
+	margin: 10px;
+	outline: none;	
+	border-radius: 5px;
+	transition: 0.5s;
+	color: #fff;
+
+	
+}
+
+
+.main .in-main .part-3
+{
+	height: 100%;
+	width: 30%;
+	
+}	
+
+.main .in-main .part-3 input
+{
+	width: 140px;
+	display: grid;
+	margin: 15px;
+	height: 6vh;
+	text-align: center;
+
+}
+
+.main .in-main .part-3 button
+{
+	width: 140px;
+	display: grid;
+	margin: 15px;
+	height: 6vh;
+	text-align: center;
+	color: #df0000;
+	font-size: large;
+	padding: 5px;
+	border-radius:5px;
+	cursor: pointer;
+
+}
+
+.main .in-main .part-3 button:hover
+{
+	color: #fff;
+	transition: 0.5s;
+	background-color: #2f4f4f4f;
+}
+
+
+
+
+
+
+
